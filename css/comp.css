@@ -88,7 +88,6 @@ Layout styles
 
 .nav-bar
 {
-	background-color: #FFF9CF;
     color: #FFF9CF;
     background: #000;
 	padding: 0;
@@ -116,7 +115,6 @@ Nav
 	margin: 0;
 	padding: 0;
 	list-style: none;
-    background-color: #7F7D68;
 }
 
 .nav li
