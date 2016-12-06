@@ -42,14 +42,6 @@ p
 	line-height: 1.5;
 }
 
-hero {
-     width: 100%;
-    background-image: url("http://weknowyourdreams.com/images/space/space-04.jpg");
-    background-size: auto 100%;
-    background-position: center top;
-    background-repeat: no-repeat;
-    }
-
 hr
 {
 	height: 0;
@@ -102,6 +94,16 @@ Layout styles
     background: #000;
 	padding: 0;
 }
+
+
+.hero {
+     width: 100%;
+    background-image: url("http://weknowyourdreams.com/images/space/space-04.jpg");
+    background-size: auto 100%;
+    background-position: center top;
+    background-repeat: no-repeat;
+    }
+
 
 .content
 {
