@@ -81,11 +81,14 @@ Layout styles
 	padding: 1em 1.25em;
 }*/
 
-.header-heading { margin: 0; }
+.header-heading { margin: 0; 
+                color: #FFF9CF;
+                }
 
 .nav-bar
 {
 	background-color: #FFF9CF;
+    color: #FFF9CF;
     background: #000;
 	padding: 0;
 }
