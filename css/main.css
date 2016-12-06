@@ -4,9 +4,10 @@ Base styles
 
 body
 {
-	margin: 0;
+	margin: 20px 140px  20px 140px;
+    text-align: center;
 	padding: 0;
-	color: #333;
+	color: #E5E0BB;
 	background-color: #403E34;
     font-family: 'Noto Sans', sans-serif;
     
