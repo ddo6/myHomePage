@@ -128,7 +128,7 @@ ul {
  
 }
 #banner h1 {
-  font-family: "Verdana"; 
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
   font-style: italic;
   margin: 0px;
   padding: 0px;
@@ -139,8 +139,8 @@ ul {
   line-height: 70px;
 }
 #menu {
-  font-family: "Arial";
-  background-color:black;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #007F16;
   width: 593px;
   float: left;
   text-align: center;
