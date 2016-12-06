@@ -98,8 +98,10 @@ Layout styles
 
 .hero {
     
-    background-image: url("http://weknowyourdreams.com/images/space/space-04.jpg");
-    padding:6px;
+    background-image: url("http://weknowyourdreams.com/images/space/space-04.jpg") no-repeat center center;
+    padding:6px; 
+    background-size: cover;
+     height: 100vh;
     }
 
 
