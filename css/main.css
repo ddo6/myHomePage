@@ -109,9 +109,9 @@ ul {
 }
 
 #banner {
-    background: url("http://wallpoper.com/images/00/34/39/15/circuit-pcb_00343915.jpg") no-repeat center center;
-  background-size: cover;
-  height: 100vh;
+    background: url("http://kids.nationalgeographic.com/content/dam/kids/photos/Countries/A-G/france-riviera.jpg") no-repeat center center;
+    background-size: cover;
+    height: 100vh;
     color: #fff;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -139,6 +139,7 @@ ul {
   line-height: 70px;
 }
 #menu {
+  position: fixed;
   font-family: 'Catamaran', sans-serif;
   background-color: #007F16;
   width: 593px;
