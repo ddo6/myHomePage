@@ -140,8 +140,8 @@ ul {
 }
 #menu {
   position: fixed;
-  font-family: 'Catamaran', sans-serif;
-  background-color: #007F16;
+  font-family: 'Noto Sans', sans-serif;
+  background-color: #BFBB9C;
   width: 593px;
   float: left;
   text-align: center;
@@ -152,7 +152,7 @@ ul {
 }
 
 #logo {
-  background-color: red;
+  background-color: #403E34;
   width: 367px;
   float: left;
 }
@@ -161,7 +161,9 @@ ul {
   margin: 0px;
 
 }
-#banner img {
+#banner img 
+{
+  font-family: 'Noto Sans', sans-serif; 
   width: 100%;
 }
 #footer {
