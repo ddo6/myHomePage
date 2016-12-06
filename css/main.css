@@ -99,9 +99,7 @@ Layout styles
 .hero {
     
     background-image: url("http://weknowyourdreams.com/images/space/space-04.jpg");
-    background-size: cover;
-    height: 100%;
-    width: 100%;
+    padding:6px;
     }
 
 
