@@ -4,13 +4,13 @@ Base styles
 
 html
 {
- height: 960px;   
+ width: 960px;   
  background-color: black;
 }
 
 body
 {
-	height: 960px; 
+	width: 960px; 
     text-align: center;
 	padding: 0;
 	color: #3E3E40;
@@ -23,7 +23,7 @@ body
   clear: both;
   background-image: url("../img/internet.jpg");
   height: 363px;
-  width: 960 px;
+  width: 960px;
   margin-bottom: 50px;
   color: white;
   
