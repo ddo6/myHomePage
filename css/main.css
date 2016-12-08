@@ -8,7 +8,7 @@ html
 }
 body
 {
-	margin: 20px 140px  20px 140px;
+	height: 100%; 
     text-align: center;
 	padding: 0;
 	color: #E5E0BB;
