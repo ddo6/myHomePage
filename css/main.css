@@ -95,6 +95,7 @@ Layout styles
 ------------------------*/
 
 ul {
+    height: 86px;
     list-style-type: none;
     text-align: center;
     margin: 0;
