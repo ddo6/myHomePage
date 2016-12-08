@@ -13,6 +13,15 @@ body
     
 }
 
+#banner {
+  clear: both;
+  background-image: url("../img/skyline.jpg");
+  height: 404px;
+  background-size: cover;
+  width: 960px;
+  background-repeat: no-repeat;
+}
+
 h1,h2,h3,h4,h5,h6
 {
     color: #403E34; 
