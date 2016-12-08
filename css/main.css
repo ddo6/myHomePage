@@ -24,6 +24,7 @@ body
   height: 100%;
   background-size: cover;
   margin-bottom: 50px;
+  color: white;
   
 }
 
@@ -58,7 +59,8 @@ h6 { font-size: .875em; } /* 14px */
 
 p
 {
- max-width: 600px;   
+    
+    max-width: 600px;   
    margin: 0 auto 20px;
 }
 
