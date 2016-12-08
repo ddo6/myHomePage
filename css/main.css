@@ -6,6 +6,7 @@ html
 {
  height: 100%;   
 }
+
 body
 {
 	height: 100%; 
@@ -19,7 +20,7 @@ body
 
 #banner {
   clear: both;
-  background-image: url("../img/skyline.jpg");
+  background-image: url("../img/internet.jpg");
   height: 100%;
   background-size: cover;
   margin-bottom: 50px;
@@ -49,10 +50,15 @@ h4 { font-size: 1.125em;
 h5 { font-size: 1em; } /* 16px */
 h6 { font-size: .875em; } /* 14px */
 
-p
+/*p
 {
 	margin: 0 0 1.5em;
 	line-height: 1.5;
+}*/
+
+p
+{
+ max-width: 600px;   
 }
 
 hr
@@ -88,13 +94,6 @@ Layout styles
 	margin: 0 auto;
 }
 
-/*.header
-{
-    background:url('http://blogs-images.forbes.com/jacobmorgan/files/2014/05/internet-of-things-2.jpg?width=960') no-repeat center top #FFF;
-    color: #fff;
-	/*background: #999;
-	padding: 1em 1.25em;
-}*/
 
 .header-heading { margin: 0; 
                 color: #FFF9CF;
@@ -107,14 +106,6 @@ Layout styles
     background: #000;
 	padding: 0;
 }
-
-/*.hero {
-    
-    background-image: url("http://weknowyourdreams.com/images/space/space-04.jpg") no-repeat center center;
-    padding:6px; 
-    background-size: cover;
-     height: 100vh;
-    }*/
 
 
 .content
@@ -175,99 +166,4 @@ Nav
 {
 	color: white;
 	background-color: red;
-}
-
-/* -----------------------
-Single styles
-------------------------*/
-
-.img-responsive { max-width: 100%; }
-
-.btn
-{
-	color: #fff !important;
-	background-color: royalblue;
-	border-color: #222;
-	display: inline-block;
-	padding: .5em 1em;
-	margin-bottom: 0;
-	font-weight: 400;
-	line-height: 1.2;
-	text-align: center;
-	white-space: nowrap;
-	vertical-align: middle;
-	cursor: pointer;
-	border: 1px solid transparent;
-	border-radius: .2em;
-	text-decoration: none;
-}
-
-.btn:hover
-{
-	color: #fff !important;
-	background-color: green;
-}
-
-.btn:focus
-{
-	color: #fff !important;
-	background-color: black;
-}
-
-.btn:active
-{
-	color: #fff !important;
-	background-color: red;
-}
-
-.table
-{
-	width: 100%;
-	max-width: 100%;
-	margin-bottom: 20px;
-}
-
-.list-unstyled
-{
-	padding-left: 0;
-	list-style: none;
-}
-
-.list-inline
-{
-	padding-left: 0;
-	margin-left: -5px;
-	list-style: none;
-}
-
-.list-inline > li
-{
-	display: inline-block;
-	padding-right: 5px;
-	padding-left: 5px;
-}
-
-/* -----------------------
-Wide styles
-------------------------*/
-
-@media (min-width: 42em)
-{
-	.header { padding: 1.5em 3em; }
-	.nav-bar { padding: 1em 3em; }
-	.content { padding: 2em 3em; }
-	.footer { padding: 2em 3em; }
-	
-	.nav li
-	{
-		display: inline;
-		margin: 0 1em 0 0;
-	}
-	
-	.nav a
-	{
-		display: inline;
-		padding: 0;
-		border-bottom: 0;
-	}
 }
