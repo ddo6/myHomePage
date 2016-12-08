@@ -142,7 +142,8 @@ li a:hover {
 .content
 {
 	padding: 1em 1.25em;
-	background-color: #fff;
+	background-color: black;
+    color: white;
 }
 
 .footer
