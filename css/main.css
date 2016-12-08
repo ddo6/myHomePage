@@ -2,6 +2,10 @@
 Base styles
 ------------------------*/
 
+html
+{
+ height: 100%;   
+}
 body
 {
 	margin: 20px 140px  20px 140px;
@@ -16,10 +20,10 @@ body
 #banner {
   clear: both;
   background-image: url("../img/skyline.jpg");
-  height: 404px;
+  height: 100%;
   background-size: cover;
-  width: 960px;
-  background-repeat: no-repeat;
+  margin-bottom: 50px;
+  
 }
 
 h1,h2,h3,h4,h5,h6
